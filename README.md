@@ -23,9 +23,9 @@ Structure
 6.	analysis.py → functional programming, functions for analysing habit series 
 7.	data (folder) → contains data for testing purposes 
 8.	test (folder) → test modules implemented with the external tool “pytest” 
-1.	test_habit.py
-2.	test_analysis.py
-3.	test_reglog.py
+  1.	test_habit.py
+  2.	test_analysis.py
+  3.	test_reglog.py
 
 
 
