@@ -22,10 +22,11 @@ Structure
 5.	db.py → initialisation of the database 
 6.	analysis.py → functional programming, functions for analysing habit series 
 7.	data (folder) → contains data for testing purposes 
-8.	test (folder) → test modules implemented with the external tool “pytest” 
-  1.	test_habit.py
-  2.	test_analysis.py
-  3.	test_reglog.py
+8.	test (folder) → test modules implemented with the external tool “pytest”
+   
+    1.	test_habit.py
+    2.	test_analysis.py
+    3.	test_reglog.py
 
 
 
@@ -34,16 +35,24 @@ Structure
 
 Installation and application
 To use the application, all files must be downloaded and saved in a folder on your computer's desktop. In addition, you will need to install some additional libraries that are not included in Python by default. These include:
+
 1.	questionary
 2.	click
 3.	pytest
+4.	pytest-mock
+   
 To simplify the installation of the libraries, I have created a ‘requirements.txt’ file. This must also be downloaded and can then be installed in the computer's terminal as follows:
+
 1.	pip install -r requirements.txt
+   
 This completes the basics for running the programme. The programme can then be run as follows:
+
 1.	Open the terminal (command prompt) on your computer
 2.	Change to the file directory (your folder) with  cd <your folder path>
 3.	Example: cd C:\Users\<YourUser>\Desktop\<YourFolderName>
+   
 You can then simply run the programme directly in the terminal with:
+
 1.	python main.py
 
 Tools and libraries
@@ -64,18 +73,19 @@ Security
 
 Test data
 The test database (test_data.db) contains:
+
 1.	1 sample user: testuser / password: dummyhash
 2.	5 predefined habits
 3.	4 weeks of checkoff data for realistic tests
 
 Tests
 The following command automatically runs the stored unit tests:
-1.	Stay in the main directory of your programme or switch to the directory with 2.
+
+1.	Stay in the main directory of your programme or switch to the directory with:
 2.	cd C:\Users\<YourUser>\Desktop\<YourFolderName>
 3.	pytest
+4.	
 To do this, you must ensure that the file ‘data/test_data.db’ exists. 
-For specific tests, you can also execute the following, for example:
-1.	pytest tests/test_habit.py
 
 Author
 Name: Christian Oltmann
