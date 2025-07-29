@@ -96,5 +96,6 @@ To do this, you must ensure that the file ‘data/test_data.db’ exists.
 Author:
 
 Name: Christian Oltmann
+
 GitHub: ChristianIU99
 
