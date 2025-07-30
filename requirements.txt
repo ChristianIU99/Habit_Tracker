@@ -1,0 +1,4 @@
+click
+questionary
+pytest
+pytest-mock
