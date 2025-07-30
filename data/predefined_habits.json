@@ -1,0 +1,52 @@
+[
+    {
+        "habit_name": "Meditation",
+        "description": "Meditate for 10 minutes every day",
+        "periodicity": "daily"
+    },
+    {
+        "habit_name": "Walking",
+        "description": "Walk outside for 30 minutes",
+        "periodicity": "daily"
+    },
+    {
+        "habit_name": "Reading a book",
+        "description": "read 10 pages",
+        "periodicity": "daily"
+    },
+    {
+        "habit_name": "Workout",
+        "description": "Do a short workout",
+        "periodicity": "daily"
+    },
+    {
+        "habit_name": "Drink water",
+        "description": "Drink 2 litres of water",
+        "periodicity": "daily"
+    },
+    {
+        "habit_name": "Write in diary",
+        "description": "Write down thoughts and events",
+        "periodicity": "daily"
+    },
+    {
+        "habit_name": "Cooking",
+        "description": "Prepare healthy meals yourself",
+        "periodicity": "weekly"
+    },
+    {
+        "habit_name": "Cleaning room",
+        "description": "Organise living area",
+        "periodicity": "weekly"
+    },
+    {
+        "habit_name": "Contact friends",
+        "description": "Write or call someone",
+        "periodicity": "weekly"
+    },
+    {
+        "habit_name": "Digital Detox",
+        "description": "Spend an evening without screen devices",
+        "periodicity": "weekly"
+    }
+]
